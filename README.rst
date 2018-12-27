@@ -1,6 +1,8 @@
 ###############################################################
 vaspwikipy: an easy way to getting access to vaspwiki
 ###############################################################
+.. image:: https://travis-ci.com/yw-fang/vaspwiki.svg?branch=master
+    :target: https://travis-ci.com/yw-fang/vaspwiki
 
 =============
 Introduction
