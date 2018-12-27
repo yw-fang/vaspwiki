@@ -15,7 +15,8 @@ I provide a python interface so that other colleagues in the community of comput
 materials and physics
 can get access to vaspwiki much easier via executing
 commands in their terminals (Linux, Windows, and Mac OS).
-The corresponding wiki page of the requested keyword will show up in your default web browser.
+The corresponding wiki page of the requested keyword will show up in your default **web browser**.
+(You may need install x11 windows in some Linux systems)
 
 =============
 Installation
@@ -40,19 +41,22 @@ or
 Open the interactive ipython interface and check the installed
 path of vaspwki:
 
-In [1]: import vaspwiki
+ In [1]: import vaspwiki
 
-In [2]: vaspwiki
-Out[2]: <module 'vaspwiki' from '/Users/ywfang/miniconda3/lib/python3.6/site-packages/vaspwiki/__init__.py'>
+ In [2]: vaspwiki
+
+ Out[2]: <module 'vaspwiki' from '/Users/ywfang/miniconda3/lib/python3.6/site-packages/vaspwiki/__init__.py'>
 
 Exit the ipython interface.
 
-- step 3: create a soft link of vaspwiki.py to $HOME/.local/bin so that you can run vaspwiki as a command (please
-double check that the path of $HOME/.local/bin is indeed in your environment file .bashrc)
+- step 3: create a soft link of vaspwiki.py to $HOME/.local/bin so that you can run vaspwiki as a command.
 
-$ ln -s /Users/ywfang/miniconda3/lib/python3.6/site-packages/vaspwiki/vaspwiki.py /Users/ywfang/.local/bin/vaspwiki
+Please
+double check that the path of $HOME/.local/bin is indeed in your environment file .bashrc before preceding.
 
-$ chmod +x /Users/ywfang/.local/bin/vaspwiki
+ $ ln -s /Users/ywfang/miniconda3/lib/python3.6/site-packages/vaspwiki/vaspwiki.py /Users/ywfang/.local/bin/vaspwiki
+
+ $ chmod +x /Users/ywfang/.local/bin/vaspwiki
 
 Finished.
 
@@ -66,14 +70,21 @@ Note that vaspwiki is case-sensitive.
 
 Search for one keyword:
 
-$ vaspwiki INCAR
+ $ vaspwiki INCAR
 
 Search for multiple keywords in one shot:
 
-$ vaspwiki INCAR LOCPOT
+ $ vaspwiki INCAR LOCPOT
 
+We can also use vaspwiki in the interactive ipython:
+
+ In [1]: import vaspwiki
+
+ In [2]: from vaspwiki import vaspwiki
+
+ In [3]: vaspwiki.help_function('INCAR')
 
 =============
 License
 =============
-See LICENSE file for details.
+MIT LICENSE. See LICENSE file for more details.
