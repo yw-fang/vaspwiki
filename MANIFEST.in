@@ -11,3 +11,6 @@ include requirements.txt
 # Command: check-manifest -u -v
 
 
+
+# added by check_manifest.py
+recursive-include vaspwiki *.py
