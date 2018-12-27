@@ -30,5 +30,7 @@ setup(name='vaspwiki',
 	  packages=['vaspwiki'],
 	  install_requires=[
 	  ],
+	  test_suite='nose.collector',
+	  tests_require=['nose'],
 	  include_package_data=True,
 	  zip_safe=False)
