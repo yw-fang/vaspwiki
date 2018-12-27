@@ -1,5 +1,5 @@
 ###############################################################
-vaspwikipy: an easy way to getting access to vaspwiki
+vaspwiki: an easy way to getting access to the VASP manual
 ###############################################################
 .. image:: https://travis-ci.com/yw-fang/vaspwiki.svg?branch=master
     :target: https://travis-ci.com/yw-fang/vaspwiki
@@ -9,7 +9,7 @@ Introduction
 =============
 
 The VASP team hosts a very useful
-`online manual of VASP <https://cms.mpi.univie.ac.at/wiki/index.php/The_VASP_Manual>`_,
+`online VASP manual <https://cms.mpi.univie.ac.at/wiki/index.php/The_VASP_Manual>`_,
 here,
 I provide a python interface so that other colleagues in the community of computational
 materials and physics
