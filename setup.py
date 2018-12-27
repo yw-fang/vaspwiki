@@ -33,7 +33,7 @@ setup(name='vaspwiki',
 	  test_suite='nose.collector',
 	  tests_require=['nose'],
 	  entry_points = {
-		  'console_scripts': ['vaspwiki=vaspwiki.vaspwiki:main'],
+		  'console_scripts': ['vaspwiki=vaspwiki.vaspwiki_command:vaspwiki_command'],
 	  },
 	  include_package_data=True,
 	  zip_safe=False)
