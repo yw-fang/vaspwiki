@@ -18,7 +18,9 @@ class TestPlaygroud(TestCase):
         if vaspwiki.help_function(requested_pattern):
             self.assertTrue(True)
 
-
+# class TestConsole(TestCase):
+#     def test_basic(self):
+#         pass
 
 """
 Test method 2
