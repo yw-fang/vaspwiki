@@ -1,0 +1,13 @@
+# This file is necessary to tell setuptools to include the 
+# non-Python files (which are not mentioned in the setup.py file) when generating source distributions.
+# Otherwise, only Python files will be included.
+
+include README.rst
+include LICENSE
+include requirements.txt
+
+# To check MANIFEST.in indeed contain all the necessary files, we can use check-manifest
+# https://github.com/mgedmin/check-manifest
+# Command: check-manifest -u -v
+
+

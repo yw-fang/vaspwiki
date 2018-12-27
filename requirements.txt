@@ -1,0 +1,6 @@
+###### Requirements without Version Specifiers ######`
+nose
+
+###### Requirements with Version Specifiers ######`
+# numpy == 1.4.0             # Version Matching. Must be version 1.4.0
+
