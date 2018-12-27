@@ -12,7 +12,8 @@ here,
 I provide a python interface so that other colleagues in the community of computational
 materials and physics
 can get access to vaspwiki much easier via executing
-commands in their terminals (Linux, Windows, and Mac OS)
+commands in their terminals (Linux, Windows, and Mac OS).
+The corresponding wiki page of the requested keyword will show up in your default web browser.
 
 =============
 Installation
