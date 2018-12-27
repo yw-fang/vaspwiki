@@ -9,7 +9,6 @@ License: MIT License (see LICENSE for details)
 __author__ = 'Yue-Wen FANG'
 __maintainer__ = "Yue-Wen FANG"
 __email__ = 'fyuewen@gmail.com'
-__version__ = '1.1.0'
 __license__ = 'MIT License'
 __creation_date__= 'Dec. 27, 2018'
 
@@ -17,6 +16,7 @@ import webbrowser
 import sys
 
 index_wiki = "https://cms.mpi.univie.ac.at/wiki/index.php/"
+
 
 def help_function(pattern):
     url = index_wiki + pattern
