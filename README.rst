@@ -16,7 +16,9 @@ materials and physics
 can get access to vaspwiki much easier via executing
 commands in their terminals (Linux, Windows, and Mac OS).
 The corresponding wiki page of the requested keyword will show up in your default **web browser**.
-(You may need install x11 windows in some Linux systems)
+(We may need install x11 windows in some terminals)
+Searching for several keywords in a batch way
+is supported, see details in the section of Usage.
 
 =============
 Installation
