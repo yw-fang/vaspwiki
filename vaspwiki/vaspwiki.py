@@ -9,7 +9,7 @@ License: MIT License (see LICENSE for details)
 __author__ = 'Yue-Wen FANG'
 __maintainer__ = "Yue-Wen FANG"
 __email__ = 'fyuewen@gmail.com'
-__version__ = '1.0.0'
+__version__ = '1.1.0'
 __license__ = 'MIT License'
 __creation_date__= 'Dec. 27, 2018'
 

@@ -38,30 +38,6 @@ or
 
  $ python setup.py install
 
-- Step 2: check the path of vaspwiki in your computer
-
-Open the interactive ipython interface and check the installed
-path of vaspwki:
-
- In [1]: import vaspwiki
-
- In [2]: vaspwiki
-
- Out[2]: <module 'vaspwiki' from '/Users/ywfang/miniconda3/lib/python3.6/site-packages/vaspwiki/__init__.py'>
-
-Exit the ipython interface.
-
-- step 3: create a soft link of vaspwiki.py to $HOME/.local/bin so that you can run vaspwiki as a command.
-
-Please
-double check that the path of $HOME/.local/bin is indeed in your environment file .bashrc before preceding.
-
- $ ln -s /Users/ywfang/miniconda3/lib/python3.6/site-packages/vaspwiki/vaspwiki.py /Users/ywfang/.local/bin/vaspwiki
-
- $ chmod +x /Users/ywfang/.local/bin/vaspwiki
-
-Finished.
-
 
 
 =============
@@ -80,11 +56,9 @@ Search for multiple keywords in one shot:
 
 We can also use vaspwiki in the interactive ipython:
 
- In [1]: import vaspwiki
+ In [1]: from vaspwiki import vaspwiki
 
- In [2]: from vaspwiki import vaspwiki
-
- In [3]: vaspwiki.help_function('INCAR')
+ In [2]: vaspwiki.help_function('INCAR')
 
 =============
 License
