@@ -11,11 +11,12 @@ __maintainer__ = "Yue-Wen FANG"
 __email__ = 'fyuewen@gmail.com'
 __license__ = 'MIT License'
 __creation_date__= 'Dec. 27, 2018'
+__revision_date__= 'Aug. 26, 2021'
 
 import webbrowser
 import sys
 
-index_wiki = "https://cms.mpi.univie.ac.at/wiki/index.php/"
+index_wiki = "https://www.vasp.at/wiki/index.php/"
 
 
 def help_function(pattern):

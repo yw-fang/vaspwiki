@@ -9,7 +9,7 @@ Introduction
 =============
 
 The VASP team hosts a very useful
-`online VASP manual <https://cms.mpi.univie.ac.at/wiki/index.php/The_VASP_Manual>`_,
+`online VASP manual <https://www.vasp.at/wiki/index.php/The_VASP_Manual>`_,
 here,
 I provide a python interface so that other colleagues in the community of computational
 materials and physics
